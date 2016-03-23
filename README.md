@@ -1,2 +1,2 @@
 # codility-lessons
-Codility Lessons Solution
+Codility Lessons Solutions
