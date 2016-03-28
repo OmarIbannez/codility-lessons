@@ -16,18 +16,17 @@ def solution(A):
     return complete - incomplete
 
 
-def test():
+def time_test():
     ''' Function to test the execution time '''
     solution(A)
 
 
 class MissingElementTest(unittest.TestCase):
-
+    ''' The expected return integer from solution() must be equal to S '''
     def test_missing(self):
-        ''' The expected return integer from solution() must be equal to S '''
         self.assertEqual(solution(A), S)
 
 
 if __name__ == '__main__':
-    print(timeit.timeit(test))
+    print(timeit.timeit(time_test))
     unittest.main()
